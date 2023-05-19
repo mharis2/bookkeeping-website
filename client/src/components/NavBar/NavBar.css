@@ -1,0 +1,53 @@
+.nav-root {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 1300 !important; /* Ensure the navbar appears on top of other elements */
+    background-color: white; /* Set the background color to white */
+  }
+  
+  .app-bar {
+    background-color: white; /* Set the background color to white */
+  }
+  
+  .nav-toolbar {
+    display: flex;
+    justify-content: center; /* Center the items horizontally */
+    margin-left: 5em; /* Move items more towards the center */
+    padding-top: 10px;
+  }
+  
+  .nav-title {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 14em; /* Move the title to the left */
+    transform: translateX(20%);
+  }
+  
+  .nav-logo {
+    margin-right: 16px; /* Add some space between the logo and the text */
+    height: 50px; /* Adjust the size as needed */
+  }
+  
+  /* Change button color to black */
+  .nav-links button {
+    color: black;
+    margin-left: 1.5em; /* Add some space between the links */
+  }
+  
+  /* Change title color to black */
+  .nav-title {
+    color: black;
+  }
+  /* Rest of the styles... */
+
+.app-bar-shadow {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  .nav-links button:hover {
+    color: teal;
+  }
+  
+  

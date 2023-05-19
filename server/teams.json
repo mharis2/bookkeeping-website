@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "position": "CEO",
+      "image": "link_to_image",
+      "about": "John Doe is the CEO of the company. With years of experience in the field, John leads the team with a focus on providing high-quality service to all clients."
+    },
+    {
+      "id": 2,
+      "name": "Jane Doe",
+      "position": "CTO",
+      "image": "link_to_image",
+      "about": "Jane Doe is the CTO of the company. Jane is responsible for maintaining the technological integrity of the company's services and ensuring the team is equipped with the best tools for the job."
+    }
+  ]
+  
